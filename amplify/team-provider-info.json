@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-staticpitch2ad-dev-121601-authRole",
+            "UnauthRoleArn": "arn:aws:iam::092560979434:role/amplify-staticpitch2ad-dev-121601-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::092560979434:role/amplify-staticpitch2ad-dev-121601-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-staticpitch2ad-dev-121601-deployment",
+            "UnauthRoleName": "amplify-staticpitch2ad-dev-121601-unauthRole",
+            "StackName": "amplify-staticpitch2ad-dev-121601",
+            "StackId": "arn:aws:cloudformation:us-east-1:092560979434:stack/amplify-staticpitch2ad-dev-121601/78b2b290-f8dd-11eb-9246-12b4aab3bd0b",
+            "AmplifyAppId": "d26zu0ggmx4umz"
+        }
+    }
+}

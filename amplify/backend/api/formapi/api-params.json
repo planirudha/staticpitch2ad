@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/contact",
+            "lambdaFunction": "formfunction",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "formapi",
+    "apiName": "formapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "formfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-staticpitch2ad-dev-121601-authRole",
+        "unAuthRoleName": "amplify-staticpitch2ad-dev-121601-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "formfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
